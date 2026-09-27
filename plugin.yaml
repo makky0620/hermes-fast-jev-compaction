@@ -1,0 +1,11 @@
+name: fast_jev
+version: "0.1.0"
+description: "Jev-scored context compaction for Hermes (port of tamaratran/fast-jev-compaction): drops stale tool calls/results and keeps everything else verbatim instead of summarizing; falls back to the built-in summary."
+author: makky0620
+homepage: https://github.com/makky0620/hermes-fast-jev-compaction
+license: MIT
+requires_env:
+  - name: TYPESAFE_API_KEY
+    description: "TypeSafe API key used to call Jev"
+    url: https://typesafe.ai
+    secret: true
